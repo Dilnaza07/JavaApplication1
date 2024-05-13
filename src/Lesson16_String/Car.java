@@ -4,11 +4,15 @@ public class Car {
     String color;
     String engine;
 
-    Car(String color, String engine) {
+    public Car(String color, String engine) {
         this.color = color;
         this.engine = engine;
     }
     final static int a = 5;
+
+    public Car() {
+
+    }
 
     public Car abc (String svet){
         Car c10 = new Car (svet, "v6");
